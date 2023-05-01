@@ -24,7 +24,7 @@ register(
 
 time.sleep(3)
 
-
+print("game registered")
 
 
 
@@ -41,15 +41,14 @@ eval_vec_env = Monitor(eval_vec_env,log_dir)
 
 eval_callback = EvalCallback(eval_vec_env, best_model_save_path=log_dir,
                              log_path=log_dir, eval_freq=1000,
-                             deterministic=True, render=False, verbose=0, n_eval_episodes=11)
+                             deterministic=True, render=False, verbose=1, n_eval_episodes=11)
+
+print("log file made")
 
 
-case_name = './strategy_base_case_test'
-# model = PPO.load(case_name+"/best_model.zip", env=eval_vec_env)
-
-
-model = PPO("MultiInputPolicy", eval_vec_env, seed = 89, verbose=0, tensorboard_log=log_dir)
-# model.learn(5e5, callback=[eval_callback], progress_bar=False)
+model = PPO("MlpPolicy", eval_vec_env, seed = 89, verbose=1, tensorboard_log=log_dir)
+print("model made")
+model.learn(1000, callback=[eval_callback], progress_bar=True)
 
 # print("finished!!!!")
 print(model.policy)
