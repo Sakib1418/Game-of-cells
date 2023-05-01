@@ -11,7 +11,8 @@ from gym import error, spaces, utils
 # from .variables import RED,BLUE
 
 plt.ion()
-
+def prob(pr=.5):
+    return random.uniform(0,1) < pr
 def plot_avg(scores, mean_scores):
     display.clear_output(wait=True)
     display.display(plt.gcf())

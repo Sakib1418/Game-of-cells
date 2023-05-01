@@ -76,8 +76,6 @@ class Cell():
         d = (self.regenerate_step <= self.cell_step <= max_age_regenerate)
         if self.potency > 0.05:
             e = prob(self.potency)
-        else:
-            e = False
 
 
         if  a and b and c and d and e:
