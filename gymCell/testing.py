@@ -35,7 +35,7 @@ log_dir = './cross_base_case'
 
 
 eval_vec_env = gym.make('gym_cell/cg-v0')
-eval_vec_env = Monitor(eval_vec_env,log_dir)
+# eval_vec_env = Monitor(eval_vec_env,log_dir)
 
 
 
