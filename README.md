@@ -8,4 +8,4 @@ video 1
 
 video 2 mp4 
 
-![](https://github.com/Sakib1418/Game-of-cells/blob/main/gymCell/randompolicy.mp4)
+![](https://github.com/Sakib1418/Game-of-cells/blob/main/randompolicy.gif)
