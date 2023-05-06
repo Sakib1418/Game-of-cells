@@ -1,6 +1,6 @@
 # Game-of-cells
 
-This is a paper replicating car t cell activation. 
+This repository is for reproducing and using virtual CAR T-cell activation optimization using Reinforcement Learning. 
 
 ## Pre-requisites
 
