@@ -13,29 +13,28 @@ This is a paper replicating car t cell activation.
 
 1. After getting Anaconda installed, git-clone the repository or zip download it and navigate to this directory from Anaconda Prompt. 
 
-For windows OS, run this code 
+* For windows OS, run this code 
 
 ```
-$.\conda_windows.bat
+ $.\conda_windows.bat
 ```
 
-For linux OS, run this code 
+* For linux OS, run this code 
 
 ```
-$.\linux_conda.sh
+$./linux_conda.sh
 ```
 
-For Mac OS with zsh shell, run this code 
+* For Mac OS with zsh shell, run this code 
 
 ```
-$.\mac_zsh_conda.sh
+$./ac_zsh_conda.sh
 ```
 
-
-For Mac OS with bash shell, run this code 
+* For Mac OS with bash shell, run this code 
 
 ```
-$.\mac_bash_conda.sh
+$./ac_bash_conda.sh
 ```
 
 ## Training Agent
