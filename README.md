@@ -2,9 +2,13 @@
 
 This is a paper replicating car t cell activation. 
 
+## Pre-requisites
+
+You need to have Anaconda or Miniconda distribution installed in order to run the codes. Installation instruction for Anaconda can be found  at at [this link.](https://www.anaconda.com/)  and Miniconda can be found in  at [this link.](https://conda.io/miniconda.html) 
+
 ## Installation 
 
-To install the required dependencies and run the program one needs to have the Anaconda distribution. How to install Anaconda can be found at [this link.](https://www.anaconda.com/) 
+To install the required dependencies and run the program one needs to have the Anaconda distribution. How to install Anaconda can be found
 
 After getting Anaconda installed, git-clone the repository or zip download it and navigate to this directory from terminal. 
 
