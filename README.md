@@ -51,7 +51,7 @@ Edit the testing.py script as required using any preferred text editor. Follow t
 Run the command 
 
 ```
-python testing.py
+$python3 testing.py
 ```
 
 
