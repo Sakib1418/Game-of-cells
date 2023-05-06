@@ -37,6 +37,8 @@ $./mac_zsh_conda.sh
 $./mac_bash_conda.sh
 ```
 
+NOTE: It will take about 15 minutes to load the codes. 
+
 ## Training Agent
 
 After the enviornment is activated, navigate to gymcell folder - 
