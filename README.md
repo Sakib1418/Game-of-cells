@@ -28,13 +28,13 @@ $./linux_conda.sh
 * For Mac OS with zsh shell, run this code 
 
 ```
-$./ac_zsh_conda.sh
+$./mac_zsh_conda.sh
 ```
 
 * For Mac OS with bash shell, run this code 
 
 ```
-$./ac_bash_conda.sh
+$./mac_bash_conda.sh
 ```
 
 ## Training Agent
