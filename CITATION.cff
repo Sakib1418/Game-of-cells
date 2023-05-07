@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ferdous"
+  given-names: "Sakib"
+  orcid: "https://orcid.org/0000-0001-7396-9830"
+- family-names: "Shihab"
+  given-names: "Ibne Farabi"
+  orcid: "https://orcid.org/0000-0003-1624-9954"
+title: "CAR T-cell activation simulation enviornment in Reinforcement Learning"
+version: 1.0.0
+doi: https://doi.org/10.5281/zenodo.7905321
+date-released: 2023-05-18
+url: "https://github.com/Sakib1418/Game-of-cells"
