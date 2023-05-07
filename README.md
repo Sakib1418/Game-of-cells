@@ -37,7 +37,7 @@ $./mac_zsh_conda.sh
 $./mac_bash_conda.sh
 ```
 
-NOTE: It will take about 15 minutes to load the codes. 
+NOTE: It will take about 15 minutes to load the modules.
 
 ## Training Agent
 
