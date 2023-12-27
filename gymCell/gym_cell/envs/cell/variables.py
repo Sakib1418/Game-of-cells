@@ -56,17 +56,17 @@ max_age_regenerate = total_step*.5
 upper_cut_potency = 0.8 #potency value above which a cell is  considered for calculating average potency
 
 
-#base case
+# Cell 1 - base case
 convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.9,1,.001,25,False
 
-# #ex100_conv45
+# Cell 2 - ex100_conv45
 # convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.45,1,.001,100,False
 
-# #natex10regen.05
+# Cell 3 - natex10regen.05
 # convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.9,10,.05,25,False
 
 
-# #assymetric
+# Cell 4 - asymmetric
 # convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.9,10,.05,25,True
 
 
