@@ -59,14 +59,14 @@ upper_cut_potency = 0.8 #potency value above which a cell is  considered for cal
 # Cell 1 - base case
 convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.9,1,.001,25,False
 
-# Cell 2 - ex100_conv45
+# Cell 2 - low conversion low exhaustion
 # convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.45,1,.001,100,False
 
-# Cell 3 - natex10regen.05
+# Cell 3 - high natural exhaustion high regeneration
 # convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.9,10,.05,25,False
 
 
-# Cell 4 - asymmetric
+# Cell 4 - producing both red and blue on reproduction 
 # convert_prob,natural_exhaustion,regenerate_prob,exhaustion_rate,assymmetric=0.9,10,.05,25,True
 
 
